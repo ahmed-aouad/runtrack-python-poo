@@ -11,7 +11,7 @@ class Animal:
         print("L'animal se nomme ", self.prenom ) 
 
 
-animal =  Animal(0) 
+animal = Animal(0) 
 print("l'age de l'animal", animal.age, "age")
 
 animal.vieillir()
