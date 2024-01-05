@@ -26,7 +26,7 @@ class Moto(Vehicule):
 
     
     def demarrer(self):
-        print("Attention, la moto démarre avec style!")
+        print("Attention, la mob démarre!")
 
 
 
@@ -35,7 +35,7 @@ class Voiture(Vehicule):
         Vehicule.__init__(self,marque, modele, annee, prix)
         self.portes = portes
     def demarrer(self):
-        print("Attention, la voiture démarre avec puissance!")
+        print("Attention, la titine démarre!")
 
     def informationsVehicule(self):
         super().informationsVehicule()
