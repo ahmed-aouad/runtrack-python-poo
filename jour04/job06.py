@@ -41,12 +41,10 @@ class Voiture(Vehicule):
         super().informationsVehicule()
         print(f"Nombre de portes = {self.portes}")
 
-# Test Moto
 moto = Moto("Yamaha", "1200 Vmax", 1987, 4500)
 moto.informationsVehicule()
 moto.demarrer()
 print()
-# Test Voiture
 voiture = Voiture("Mercedes", "Classe A", 2020, 18500)
 voiture.informationsVehicule()
 voiture.demarrer()
